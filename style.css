@@ -1,0 +1,25 @@
+h1{
+	background-color:#f7b2ae;
+	font-size:50px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: "Bookman", serif;
+}
+h4{
+	font-family: "Didot", serif;
+}
+nav{
+	position: fixed;
+	top: 0;
+	right:0;
+	left:0;
+	z-index: 1030;
+}
+#editpg{
+	font-size: 25px;
+}
+#pagelist{
+	font-size: 25px;
+}
