@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>youtube edit</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
 	>
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<nav class="navbar navbar-light" style="background-color: #b3b3b3; border-style: solid;border-color: gold;" fixed top">
-		<a class="navbar-brand" href="#">Widget Edit</a>
-		<a class="sw-font-white" href="#"><i class="fas fa-check"></i></a>
-</nav>
+	<nav class="navbar navbar-light cm-bg-gray">
+		<a href="../User/profile.html"><i class="fas fa-arrow-left"></i></a>
+		<a id="pagelist" class="navbar-brand" href="#">Edit Widget</a>
+		<a class="sw-font-white"  href="../widget/widget-list.html">
+			<i class="fas fa-check-circle"></i></a>
+	</nav>
 <br>
-<form>
-		<div>
-			<h4>Name</h4>
-			<input type="text" name="NAME"  class="form-control">
-		</div>
+<Div class="form-group">
+			<label for="text">Name</label>
+			<input type="text" name="Name" class="form-control">
+		</Div>
+		<br>
+		<Div class="form-group">
+			<label for="text">Text</label>
+			<textarea class="form-control" rows="5" placeholder="Input Your description for this website"></textarea>
+		</Div>
+		<br>
+			<Div class="form-group">
+			<label for="URL">URL</label>
+			<input type="text" name="URL" class="form-control" placeholder="www.image.com">
+		</Div>
+		<br>
+		<Div class="form-group">
+			<label for="text">Width</label>
+			<input type="text" name="Width" class="form-control" placeholder="100%">
+		</Div>
 		<form>
-			<form>
-		<div>
-			<h4>Text</h4>
-			<input type="text" name="NAME"  class="form-control">
-		</div>
-		<form>
-			<form>
-		<div>
-			<h4>URL</h4>
-			<input type="text" name="NAME"  class="form-control">
-		</div>
-		<form>
-			<form>
-		<div>
-			<h4>Width</h4>
-			<input type="text" name="NAME" class="form-control">
-		</div>
-		<form>
-			<a class="btn btn-warning btn btn-block" href="widget-list.html">Delete</a>
+			<a class="btn btn-dark btn btn-block" href="../widget/widget-list.html">Delete</a>
+		<br>
+	<!--FOOTER-->
+	<footer>
+		<nav id="footer" class="navbar navbar-light cm-bg-gray">
+		<a id="pagelist" class="navbar-brand" href="#"></a>
+		<a class="sw-font-white"  href="../User/profile.html">
+			<i class="far fa-user"></i>
+		</a>
+	</nav>
+	</footer>		
 
 </body>
 </html>
