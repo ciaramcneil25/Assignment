@@ -5,15 +5,39 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
 	>
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="container">
-	<nav class="navbar navbar-light" style="background-color: #b3b3b3 " "fixed top">
-		<form>
-			<div>
-			<h4>Username</h4>
-			<input type="text" name="Name" placeholder="Name" class="form-control">
+	<nav class=" row navbar navbar-light cm-bg-gray">
+		<div class="container-fluid">
+		<div class="col sm-4 d-none d-sm-block"></div>
+		<div class="col sm-8">
 		</div>
-		</form>
+		 <a href="../Website/website-new.html"><i class="fas fa-arrow-left"></i></a>
+		<a id="pagelist" class="navbar-brand" href="#">New Website</a>
+		<a class="sw-font-white"  href="../Website/website-list.html">
+			<i class="fas fa-check-circle"></i>
+		</a>
+	</nav>
+<br>
+<form>
+	<h5>Name</h5>
+		<div class="form-group">
+		<input type="text" name="Username" placeholder="Name" class="form-control">
+		<br>
+		<div class="form-group">
+			<label for="website-description">Description</label>
+			<textarea class="form-control" rows="5" placeholder="Input Your description for this website"></textarea>
+		</div>
+	</div>
+	<!--FOOTER-->
+	<footer>
+		<nav id="footer" class="navbar navbar-light cm-bg-gray">
+		<a id="pagelist" class="navbar-brand" href="#"></a>
+		<a class="sw-font-white"  href="../User/profile.html">
+			<i class="far fa-user"></i>
+		</a>
+	</nav>
+	</footer>		
 </body>
 </html>
