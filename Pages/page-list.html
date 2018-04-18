@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Choose Widget</title>
+	<title>Page List</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
 	>
 	<link rel="stylesheet" type="text/css" href="../style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+   <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+
 </head>
 <body>
-	<nav class="navbar navbar-light" style="background-color: #b3b3b3;" fixed top">
-		<a id="pagelist" class="navbar-brand" href="#">Pages</a>
-		<a class="sw-font-white" href="#"><i class="fas fa-check"></i></a>
-</nav>
-	
-	<ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Blog Post</a>
-  </li>
-  <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Blogs</a>
-  </li>
-  <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-  <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">About</a>
-  </li>
-  <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Contact Us</a>
-  </li>
+  <nav class="navbar navbar-light cm-bg-gray">
+    <a href="../Website/website-list.html"><i class="fas fa-arrow-left"></i></a>
+    <a id="pagelist" class="navbar-brand" href="#">Pages</a>
+    <a class="sw-font-white"  href="../Pages/page-new.html">
+     <i class="fas fa-plus"></i>
+    </a>
+  </nav>
+  <!--LIST-->
+<ul>
+   <div class="cm-absolute-right sw-front">
+        <a href="../widget/widget-youtube.html"><i class="fas fa-cog"></i></a>
+      </div>
+    <li class="nav item">
+      <a class="nav-link active" href="#">Home</a>
+     </li>
+  <div class="cm-absolute-right sw-front">
+        <a href="../widget/widget-youtube.html"><i class="fas fa-cog"></i></a>
+      </div>
+    <li class="nav item">
+      <a class="nav-link active" href="#">About</a>
+    </li>
+  <div class="cm-absolute-right sw-front">
+        <a href="../widget/widget-youtube.html"><i class="fas fa-cog"></i></a>
+      </div>
+     <li class="nav item">
+      <a class="nav-link active" href="#">Contact Us</a>
+    </li>
+  <div class="cm-absolute-right sw-front">
+        <a href="../widget/widget-youtube.html"><i class="fas fa-cog"></i></a>
+      </div>
+    <li class="nav item">
+    <a class="nav-link active" href="#">Blog</a>
+    </li>
+  <div class="cm-absolute-right sw-front">
+        <a href="../widget/widget-youtube.html"><i class="fas fa-cog"></i></a>
+      </div>
+    <li class="nav item">
+      <a class="nav-link item" href="#">Blog Posts</a>
+    </li>
+</ul>
+	<br>
+  <footer>
+    <nav id="footer" class="navbar navbar-light cm-bg-gray">
+      <a id="pagelist" class="navbar-brand" href="../User/profile.html"></a>
+      <a class="sw-font-white"  href="../User/profile.html">
+        <i class="far fa-user"></i>
+    </a>
+  </nav>
+  </footer>
 
 </body>
 </html>
