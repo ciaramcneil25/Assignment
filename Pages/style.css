@@ -1,0 +1,53 @@
+#BLOG-1{
+	color: #CBABB6; text-align: center;
+}
+
+#BLOG-2{
+	color:#CBABB6; text-align: center;
+}
+/*style for blog 3 title*/
+#BLOG-3{
+	color:#CBABB6; text-align: center;
+}
+body{
+	background-color: #E8E8E8;
+}
+#main-header{
+	background-color: #CBABB6;
+	text-align: center;
+
+}
+#CECE1{
+	text-align: center; font-family: "snell roundhand", snell roundhand, serif; font size: 30px
+}
+#CECE2{
+	text-align: center;font-family: "snell roundhand", snell roundhand,serif; font-size: 30px
+}
+#CECE3{
+	text-align: center; font-family: "luminari fantasy", ,serif; font-size: 30px
+}
+
+ul{
+	line-height:60px;
+}
+
+#im3{
+	padding: 50px;
+	
+}
+#im2{
+	background-color: black;
+	size: 20px
+}
+
+button{
+	background-color: black;
+
+}
+#p1{
+	background-color: #f5e5ed
+}
+#pagelist{
+	color:pink;
+	background-color:#faf1a6;
+	text-align:center;
